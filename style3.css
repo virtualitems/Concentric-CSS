@@ -1,32 +1,39 @@
-#concentric-css {
-  /* Outside / global */
+* {
+
+  /* UNIVERSAL */
   all: unset;
-  anchor-name: unset;
+
+  /* COLOR & APPEARANCE */
+  forced-color-adjust: unset;
+  color-scheme: unset;
+  accent-color: unset;
   appearance: unset;
+  anchor-name: unset;
+  print-color-adjust: unset;
+  color: unset;
+
+  /* CONTAINER & BOX SETUP */
+  container: unset;
+  container-type: unset;
+  container-name: unset;
+  display: unset;
   contain: unset;
+  content-visibility: unset;
+  content: unset;
+  box-sizing: unset;
+  zoom: unset;
   contain-intrinsic-block-size: unset;
   contain-intrinsic-height: unset;
   contain-intrinsic-inline-size: unset;
   contain-intrinsic-size: unset;
   contain-intrinsic-width: unset;
-  container: unset;
-  container-name: unset;
-  container-type: unset;
-  content-visibility: unset;
-  field-sizing: unset;
-  forced-color-adjust: unset;
-  page: unset;
-  print-color-adjust: unset;
-  quotes: unset;
-  timeline-scope: unset;
-  view-timeline: unset;
-  view-timeline-axis: unset;
-  view-timeline-inset: unset;
-  view-timeline-name: unset;
-  view-transition-name: unset;
 
-  /* Positioning */
+  /* POSITION & INSET */
+  position: unset;
+  top: unset;
+  right: unset;
   bottom: unset;
+  left: unset;
   inset: unset;
   inset-block: unset;
   inset-block-end: unset;
@@ -34,68 +41,14 @@
   inset-inline: unset;
   inset-inline-end: unset;
   inset-inline-start: unset;
-  left: unset;
-  offset: unset;
-  offset-anchor: unset;
-  offset-distance: unset;
-  offset-path: unset;
-  offset-position: unset;
-  offset-rotate: unset;
-  position: unset;
-  position-anchor: unset;
-  position-area: unset;
-  position-try: unset;
-  position-try-fallbacks: unset;
-  position-try-order: unset;
-  position-visibility: unset;
-  right: unset;
-  top: unset;
-  z-index: unset;
-
-  /* Float, clear, overflow, etc. */
-  break-after: unset;
-  break-before: unset;
-  break-inside: unset;
-  caption-side: unset;
-  clear: unset;
-  column-count: unset;
-  column-fill: unset;
-  column-gap: unset;
-  column-rule: unset;
-  column-rule-color: unset;
-  column-rule-style: unset;
-  column-rule-width: unset;
-  column-span: unset;
-  column-width: unset;
-  columns: unset;
-  direction: unset;
-  display: unset;
-  empty-cells: unset;
-  float: unset;
-  hanging-punctuation: unset;
   isolation: unset;
-  list-style: unset;
-  list-style-image: unset;
-  list-style-position: unset;
-  list-style-type: unset;
-  overflow: unset;
-  overflow-anchor: unset;
-  overflow-block: unset;
-  overflow-clip-margin: unset;
-  overflow-inline: unset;
-  overflow-x: unset;
-  overflow-y: unset;
-  overscroll-behavior: unset;
-  overscroll-behavior-block: unset;
-  overscroll-behavior-inline: unset;
-  overscroll-behavior-x: unset;
-  overscroll-behavior-y: unset;
-  ruby-align: unset;
-  ruby-position: unset;
-  table-layout: unset;
-  vertical-align: unset;
+  z-index: unset;
+  float: unset;
+  clear: unset;
+  aspect-ratio: unset;
+  overlay: unset;
 
-  /* Margin */
+  /* MARGIN */
   margin: unset;
   margin-block: unset;
   margin-block-end: unset;
@@ -108,19 +61,8 @@
   margin-right: unset;
   margin-top: unset;
   margin-trim: unset;
-  scroll-margin: unset;
-  scroll-margin-block: unset;
-  scroll-margin-block-end: unset;
-  scroll-margin-block-start: unset;
-  scroll-margin-bottom: unset;
-  scroll-margin-inline: unset;
-  scroll-margin-inline-end: unset;
-  scroll-margin-inline-start: unset;
-  scroll-margin-left: unset;
-  scroll-margin-right: unset;
-  scroll-margin-top: unset;
 
-  /* Border, outline, box decoration */
+  /* BORDER */
   border: unset;
   border-block: unset;
   border-block-color: unset;
@@ -182,20 +124,32 @@
   border-top-style: unset;
   border-top-width: unset;
   border-width: unset;
-  box-decoration-break: unset;
-  box-shadow: unset;
-  clip-path: unset;
-  clip-rule: unset;
+
+  /* OUTLINE */
   outline: unset;
   outline-color: unset;
   outline-offset: unset;
   outline-style: unset;
   outline-width: unset;
-  paint-order: unset;
 
-  /* Mask, shape, filter */
-  backdrop-filter: unset;
+  /* DECORATION & EFFECTS */
+  box-decoration-break: unset;
+  box-shadow: unset;
+  perspective: unset;
+  perspective-origin: unset;
+  backface-visibility: unset;
+  paint-order: unset;
+  clip-path: unset;
+  clip-rule: unset;
+  color-interpolation-filters: unset;
+  mix-blend-mode: unset;
+  will-change: unset;
   filter: unset;
+  backdrop-filter: unset;
+  lighting-color: unset;
+  image-orientation: unset;
+  image-rendering: unset;
+  image-resolution: unset;
   mask: unset;
   mask-border: unset;
   mask-border-mode: unset;
@@ -213,59 +167,12 @@
   mask-repeat: unset;
   mask-size: unset;
   mask-type: unset;
-  mix-blend-mode: unset;
   shape-image-threshold: unset;
   shape-margin: unset;
   shape-outside: unset;
   shape-rendering: unset;
 
-  /* Padding */
-  padding: unset;
-  padding-block: unset;
-  padding-block-end: unset;
-  padding-block-start: unset;
-  padding-bottom: unset;
-  padding-inline: unset;
-  padding-inline-end: unset;
-  padding-inline-start: unset;
-  padding-left: unset;
-  padding-right: unset;
-  padding-top: unset;
-  scroll-padding: unset;
-  scroll-padding-block: unset;
-  scroll-padding-block-end: unset;
-  scroll-padding-block-start: unset;
-  scroll-padding-bottom: unset;
-  scroll-padding-inline: unset;
-  scroll-padding-inline-end: unset;
-  scroll-padding-inline-start: unset;
-  scroll-padding-left: unset;
-  scroll-padding-right: unset;
-  scroll-padding-top: unset;
-
-  /* Sizing */
-  aspect-ratio: unset;
-  block-size: unset;
-  box-sizing: unset;
-  height: unset;
-  inline-size: unset;
-  interpolate-size: unset;
-  max-block-size: unset;
-  max-height: unset;
-  max-inline-size: unset;
-  max-width: unset;
-  min-block-size: unset;
-  min-height: unset;
-  min-inline-size: unset;
-  min-width: unset;
-  object-fit: unset;
-  object-position: unset;
-  resize: unset;
-  width: unset;
-  zoom: unset;
-
-  /* Background, color */
-  accent-color: unset;
+  /* BACKGROUND */
   background: unset;
   background-attachment: unset;
   background-blend-mode: unset;
@@ -278,15 +185,55 @@
   background-position-y: unset;
   background-repeat: unset;
   background-size: unset;
-  color: unset;
-  color-interpolation-filters: unset;
-  color-scheme: unset;
-  lighting-color: unset;
 
-  /* Layout methods */
-  align-content: unset;
-  align-items: unset;
-  align-self: unset;
+  /* SIZING */
+  width: unset;
+  min-width: unset;
+  max-width: unset;
+  height: unset;
+  min-height: unset;
+  max-height: unset;
+  block-size: unset;
+  min-block-size: unset;
+  max-block-size: unset;
+  inline-size: unset;
+  min-inline-size: unset;
+  max-inline-size: unset;
+  interpolate-size: unset;
+  object-fit: unset;
+  object-position: unset;
+
+  /* PADDING */
+  padding: unset;
+  padding-block: unset;
+  padding-block-end: unset;
+  padding-block-start: unset;
+  padding-bottom: unset;
+  padding-inline: unset;
+  padding-inline-end: unset;
+  padding-inline-start: unset;
+  padding-left: unset;
+  padding-right: unset;
+  padding-top: unset;
+
+  /* TABLE & CELLS */
+  table-layout: unset;
+  caption-side: unset;
+  empty-cells: unset;
+
+  /* COLUMNS */
+  columns: unset;
+  column-count: unset;
+  column-fill: unset;
+  column-gap: unset;
+  column-rule: unset;
+  column-rule-color: unset;
+  column-rule-style: unset;
+  column-rule-width: unset;
+  column-span: unset;
+  column-width: unset;
+
+  /* FLEX */
   flex: unset;
   flex-basis: unset;
   flex-direction: unset;
@@ -294,7 +241,8 @@
   flex-grow: unset;
   flex-shrink: unset;
   flex-wrap: unset;
-  gap: unset;
+
+  /* GRID */
   grid: unset;
   grid-area: unset;
   grid-auto-columns: unset;
@@ -310,27 +258,166 @@
   grid-template-areas: unset;
   grid-template-columns: unset;
   grid-template-rows: unset;
-  justify-content: unset;
-  justify-items: unset;
-  justify-self: unset;
-  order: unset;
+
+  /* GAPS & ALIGNMENT */
+  gap: unset;
+  row-gap: unset;
+  column-gap: unset;
   place-content: unset;
   place-items: unset;
   place-self: unset;
-  row-gap: unset;
+  align-content: unset;
+  align-items: unset;
+  align-self: unset;
+  justify-content: unset;
+  justify-items: unset;
+  justify-self: unset;
 
-  /* Content, counters */
-  content: unset;
+  /* BREAKS & PAGINATION */
+  break-after: unset;
+  break-before: unset;
+  break-inside: unset;
+  orphans: unset;
+  widows: unset;
+  page: unset;
+
+  /* SCROLL & VIEWPORT */
+  scroll: unset;
+  scroll-behavior: unset;
+  scroll-margin: unset;
+  scroll-margin-block: unset;
+  scroll-margin-block-end: unset;
+  scroll-margin-block-start: unset;
+  scroll-margin-bottom: unset;
+  scroll-margin-inline: unset;
+  scroll-margin-inline-end: unset;
+  scroll-margin-inline-start: unset;
+  scroll-margin-left: unset;
+  scroll-margin-right: unset;
+  scroll-margin-top: unset;
+  scroll-padding: unset;
+  scroll-padding-block: unset;
+  scroll-padding-block-end: unset;
+  scroll-padding-block-start: unset;
+  scroll-padding-bottom: unset;
+  scroll-padding-inline: unset;
+  scroll-padding-inline-end: unset;
+  scroll-padding-inline-start: unset;
+  scroll-padding-left: unset;
+  scroll-padding-right: unset;
+  scroll-padding-top: unset;
+  scroll-snap-align: unset;
+  scroll-snap-stop: unset;
+  scroll-snap-type: unset;
+  scroll-timeline: unset;
+  scroll-timeline-axis: unset;
+  scroll-timeline-name: unset;
+  scrollbar-color: unset;
+  scrollbar-gutter: unset;
+  scrollbar-width: unset;
+  timeline-scope: unset;
+  view-timeline: unset;
+  view-timeline-axis: unset;
+  view-timeline-inset: unset;
+  view-timeline-name: unset;
+  overflow: unset;
+  overflow-anchor: unset;
+  overflow-block: unset;
+  overflow-clip-margin: unset;
+  overflow-inline: unset;
+  overflow-wrap: unset;
+  overflow-x: unset;
+  overflow-y: unset;
+  overscroll-behavior: unset;
+  overscroll-behavior-block: unset;
+  overscroll-behavior-inline: unset;
+  overscroll-behavior-x: unset;
+  overscroll-behavior-y: unset;
+
+  /* TRANSITIONS & VIEW-TRANSITION */
+  transition: unset;
+  transition-behavior: unset;
+  transition-delay: unset;
+  transition-duration: unset;
+  transition-property: unset;
+  transition-timing-function: unset;
+  view-transition-name: unset;
+
+  /* ANIMATION */
+  animation: unset;
+  animation-composition: unset;
+  animation-delay: unset;
+  animation-direction: unset;
+  animation-duration: unset;
+  animation-fill-mode: unset;
+  animation-iteration-count: unset;
+  animation-name: unset;
+  animation-play-state: unset;
+  animation-range: unset;
+  animation-range-end: unset;
+  animation-range-start: unset;
+  animation-timeline: unset;
+  animation-timing-function: unset;
+
+  /* TRANSFORMS & MOTION */
+  transform: unset;
+  transform-box: unset;
+  transform-origin: unset;
+  transform-style: unset;
+  translate: unset;
+  rotate: unset;
+  scale: unset;
+  offset: unset;
+  offset-anchor: unset;
+  offset-distance: unset;
+  offset-path: unset;
+  offset-position: unset;
+  offset-rotate: unset;
+
+  /* POINTER & CURSOR */
+  pointer-events: unset;
+  cursor: unset;
+
+  /* INPUT & TOUCH */
+  user-select: unset;
+  touch-action: unset;
+
+  /* VISIBILITY & ORDER */
+  opacity: unset;
+  visibility: unset;
+  order: unset;
+  resize: unset;
+
+  /* DIRECTION */
+  direction: unset;
+  writing-mode: unset;
+  unicode-bidi: unset;
+
+  /* SPECIAL POSITIONING */
+  field-sizing: unset;
+  position-anchor: unset;
+  position-area: unset;
+  position-try: unset;
+  position-try-fallbacks: unset;
+  position-try-order: unset;
+  position-visibility: unset;
+
+  /* LIST & COUNTERS */
+  list-style: unset;
+  list-style-image: unset;
+  list-style-position: unset;
+  list-style-type: unset;
   counter-increment: unset;
   counter-reset: unset;
   counter-set: unset;
-  initial-letter: unset;
+
+  /* MATH */
   math-depth: unset;
   math-shift: unset;
   math-style: unset;
-  speak-as: unset;
 
-  /* Typography */
+  /* CARET & TEXT (END) */
+  caret-color: unset;
   font: unset;
   font-family: unset;
   font-feature-settings: unset;
@@ -357,15 +444,19 @@
   font-variant-position: unset;
   font-variation-settings: unset;
   font-weight: unset;
+  hanging-punctuation: unset;
   hyphenate-character: unset;
   hyphenate-limit-chars: unset;
   hyphens: unset;
+  initial-letter: unset;
   letter-spacing: unset;
   line-break: unset;
   line-clamp: unset;
   line-height: unset;
   line-height-step: unset;
-  orphans: unset;
+  ruby-align: unset;
+  ruby-position: unset;
+  speak-as: unset;
   tab-size: unset;
   text-align: unset;
   text-align-last: unset;
@@ -398,71 +489,13 @@
   text-wrap: unset;
   text-wrap-mode: unset;
   text-wrap-style: unset;
-  unicode-bidi: unset;
-  white-space: unset;
-  white-space-collapse: unset;
-  widows: unset;
   word-break: unset;
   word-spacing: unset;
   word-wrap: unset;
+  white-space: unset;
+  white-space-collapse: unset;
   writing-mode: unset;
+  vertical-align: unset;
+  quotes: unset;
 
-  /* Transform, transition, animation */
-  animation: unset;
-  animation-composition: unset;
-  animation-delay: unset;
-  animation-direction: unset;
-  animation-duration: unset;
-  animation-fill-mode: unset;
-  animation-iteration-count: unset;
-  animation-name: unset;
-  animation-play-state: unset;
-  animation-range: unset;
-  animation-range-end: unset;
-  animation-range-start: unset;
-  animation-timeline: unset;
-  animation-timing-function: unset;
-  backface-visibility: unset;
-  perspective: unset;
-  perspective-origin: unset;
-  rotate: unset;
-  scale: unset;
-  transform: unset;
-  transform-box: unset;
-  transform-origin: unset;
-  transform-style: unset;
-  transition: unset;
-  transition-behavior: unset;
-  transition-delay: unset;
-  transition-duration: unset;
-  transition-property: unset;
-  transition-timing-function: unset;
-  translate: unset;
-
-  /* Interactive */
-  cursor: unset;
-  pointer-events: unset;
-  scroll-behavior: unset;
-  touch-action: unset;
-  user-select: unset;
-
-  /* Misc */
-  caret-color: unset;
-  image-orientation: unset;
-  image-rendering: unset;
-  image-resolution: unset;
-  opacity: unset;
-  overflow-wrap: unset;
-  overlay: unset;
-  scroll-snap-align: unset;
-  scroll-snap-stop: unset;
-  scroll-snap-type: unset;
-  scroll-timeline: unset;
-  scroll-timeline-axis: unset;
-  scroll-timeline-name: unset;
-  scrollbar-color: unset;
-  scrollbar-gutter: unset;
-  scrollbar-width: unset;
-  visibility: unset;
-  will-change: unset;
 }
